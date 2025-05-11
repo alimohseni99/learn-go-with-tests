@@ -8,6 +8,6 @@ func TestArrays(t *testing.T){
 	want := 15
 
 	if got != want {
-		t.Errorf("Expected '%d' but got '%d%'", got, want, numbers)
+	t.Errorf("got %d want %d given, %v", got, want, numbers)
 	}
 }
