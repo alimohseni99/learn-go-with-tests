@@ -7,7 +7,7 @@ import (
 
 func TestGreat(t *testing.T){
 		buffer := bytes.Buffer{}
-		Great(&buffer, "Chris")
+		Greet(&buffer, "Chris")
 
 	got := buffer.String()
 	want := "Hello, Chris"
