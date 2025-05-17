@@ -17,9 +17,7 @@ func TestCountdown (t *testing.T){
 1
 Go!`
 
-
-
-		if got != want {
+if got != want {
 				t.Errorf("got %q want %q", got, want)
 		}
 
